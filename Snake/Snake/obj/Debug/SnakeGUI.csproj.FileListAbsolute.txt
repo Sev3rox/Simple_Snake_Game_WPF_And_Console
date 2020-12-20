@@ -1,0 +1,6 @@
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\SnakeGUI.csprojAssemblyReference.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\MainWindow.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\MenuPage.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\App.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake_MarkupCompile.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake_MarkupCompile.lref

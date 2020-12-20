@@ -1,0 +1,62 @@
+﻿<Page x:Class="Snake.PageSterowanie"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Snake"
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="500"
+      Title="PageSterowanie">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+
+        <Grid.Background >
+            <ImageBrush  ImageSource="/Files/Snake2jpg.jpg" />
+        </Grid.Background>
+        <TextBlock Foreground="White" Margin="0,5,0,18" TextAlignment="Center" FontWeight="Bold" FontSize="16"  Background="DarkBlue"   Grid.Column="3" Grid.Row="2" >
+       Menu:
+        </TextBlock>
+        <TextBlock Margin="60,5,60,18" TextAlignment="Center" FontWeight="Bold" FontSize="16"  Background="Aqua"   Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="7">
+      Do przemieszczania się po menu służą przyciski,
+        </TextBlock>
+        <TextBlock Margin="55,5,55,18" TextAlignment="Center" FontWeight="Bold" FontSize="16"  Background="Aqua"   Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="7">
+        na które należy kliknąć lewym przyciskiem myszki.
+        </TextBlock>
+        <TextBlock Foreground="White" Margin="0,5,0,18" TextAlignment="Center" FontWeight="Bold" FontSize="16"  Background="DarkBlue"   Grid.Column="3" Grid.Row="5" >
+      Gra:
+        </TextBlock>
+        <TextBlock Margin="80,5,80,18" TextAlignment="Center" FontWeight="Bold" FontSize="16"  Background="Aqua"   Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="7">
+       Poruszanie się wężem za pomocą strzałek.
+        </TextBlock>
+      
+      
+        <Button FontSize="16" FontWeight="Bold" Margin="15,0,15,0" Grid.Column="2" Grid.Row="8" Grid.ColumnSpan="3" Click="Back" >
+            <Button.Background>
+                <ImageBrush ImageSource="/Files/snakebutton3.jpg" />
+            </Button.Background> Powrót</Button>
+    </Grid>
+</Page>

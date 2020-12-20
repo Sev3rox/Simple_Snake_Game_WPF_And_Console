@@ -1,0 +1,48 @@
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\MainWindow.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\MenuPage.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\App.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake_MarkupCompile.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake_MarkupCompile.lref
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\MainWindow.baml
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\MenuPage.baml
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake.g.resources
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Game.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\Game.baml
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Game.g.cs
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\MainWindow.g.cs
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\MenuPage.g.cs
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\App.g.cs
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Snake_MarkupCompile.cache
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Snake_MarkupCompile.lref
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Game.baml
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\MainWindow.baml
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\MenuPage.baml
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Snake.g.resources
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\Mloteks71\Desktop\SNAKE WPF\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\EndGamePage.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\PomocPage.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\WynikiPage.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\EndGamePage.baml
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\PomocPage.baml
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\WynikiPage.baml
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\PageSterowanie.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\PageZasady.g.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\PageSterowanie.baml
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\PageZasady.baml

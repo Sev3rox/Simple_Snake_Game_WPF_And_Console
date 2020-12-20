@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74AEF20E-8EB6-4931-B8E0-892856816418}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Snake</RootNamespace>
+    <AssemblyName>Snake</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="EndGamePage.xaml.cs">
+      <DependentUpon>EndGamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Game.xaml.cs">
+      <DependentUpon>Game.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPage.xaml.cs">
+      <DependentUpon>MenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageSterowanie.xaml.cs">
+      <DependentUpon>PageSterowanie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageZasady.xaml.cs">
+      <DependentUpon>PageZasady.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PomocPage.xaml.cs">
+      <DependentUpon>PomocPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Snakee.cs" />
+    <Compile Include="Wyniki.cs" />
+    <Compile Include="WynikiPage.xaml.cs">
+      <DependentUpon>WynikiPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="EndGamePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Game.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Element.cs" />
+    <Compile Include="Food.cs" />
+    <Compile Include="Koniecgry.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageSterowanie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageZasady.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PomocPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WynikiPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Point.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="results.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\Food2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\Food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\snake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\stock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\Snake2jpg.jpg" />
+    <Resource Include="Files\Snake3jpg.jpg" />
+    <Resource Include="Files\Snake4jpg.jpg" />
+    <Resource Include="Files\SnakeMenu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\snakebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\snakebutton2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\snakebutton3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\snakebutton4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\sand.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\top10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\Szachownica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\bum1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\bum2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\bum3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\bum4.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

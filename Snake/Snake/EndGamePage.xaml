@@ -1,0 +1,51 @@
+﻿<Page x:Class="Snake.EndGamePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Snake"
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="500"
+      Title="EndGamePage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+
+        <Grid.Background >
+            <ImageBrush  ImageSource="/Files/Snake4jpg.jpg" />
+        </Grid.Background>
+        <Label Foreground="LightGoldenrodYellow" FontWeight="Bold"  FontSize="22" Margin="30,0,30,0"   Name="result" Grid.Column="2" Grid.Row="2"  Grid.ColumnSpan="3">Twój wynik:</Label>
+        <TextBox Foreground="LightGoldenrodYellow" TextAlignment="Center" FontSize="20" Margin="20,10,20,5" Background="DarkBlue" Name="nick" Grid.Column="2" Grid.Row="4"  Grid.ColumnSpan="3"></TextBox>
+        <Button FontSize="16" FontWeight="Bold" Margin="15,0,15,0" Grid.Column="2" Grid.Row="6" Grid.ColumnSpan="3" Click="Zapisz" >
+            <Button.Background>
+                <ImageBrush ImageSource="/Files/snakebutton2.jpg" />
+            </Button.Background> Zapisz</Button>
+        <Button FontSize="16" FontWeight="Bold" Margin="15,0,15,0" Grid.Column="2" Grid.Row="8" Grid.ColumnSpan="3" Click="NieZapisuj"  >
+            <Button.Background>
+                <ImageBrush ImageSource="/Files/snakebutton2.jpg" />
+            </Button.Background> Nie Zapisuj</Button>
+    </Grid>
+</Page>

@@ -1,0 +1,52 @@
+﻿<Page x:Class="Snake.PageZasady"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Snake"
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="500"
+      Title="PageZasady">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+
+        <Grid.Background >
+            <ImageBrush  ImageSource="/Files/Snake2jpg.jpg" />
+        </Grid.Background>
+        <TextBlock Margin="105,5,105,18" TextAlignment="Center" FontWeight="Bold" FontSize="16"  Background="Aqua"  Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="5">Sterujesz wężem.</TextBlock>
+        <TextBlock Margin="25,5,25,18" TextAlignment="Center" FontWeight="Bold"  FontSize="16"  Background="Aqua"   Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="7">Twoim celem jest zebranie jak największej ilości jedzenia.</TextBlock>
+        <TextBlock Margin="75,5,75,18" TextAlignment="Center" FontWeight="Bold"  FontSize="16"  Background="Aqua"   Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="7">Każde zebranie jedzenia wydłuża ogon węża.</TextBlock>
+        <TextBlock Margin="25,5,25,18" TextAlignment="Center" FontWeight="Bold" FontSize="16"  Background="Aqua"   Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="7">Gra kończy się w momencie udeżenia głową węża o ściane,</TextBlock>
+        <TextBlock Margin="100,5,100,18" TextAlignment="Center" FontWeight="Bold" FontSize="16"  Background="Aqua"   Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="5">
+        lub o własne ciało.
+        </TextBlock>
+        <Button FontSize="16" FontWeight="Bold" Margin="15,0,15,0"  Grid.Column="2" Grid.Row="8" Grid.ColumnSpan="3" Click="Back" >
+            <Button.Background>
+                <ImageBrush ImageSource="/Files/snakebutton3.jpg" />
+            </Button.Background> Powrót</Button>
+    </Grid>
+</Page>

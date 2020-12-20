@@ -1,0 +1,42 @@
+C:\Users\Mloteks71\source\repos\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.exe
+C:\Users\Mloteks71\source\repos\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.deps.json
+C:\Users\Mloteks71\source\repos\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.json
+C:\Users\Mloteks71\source\repos\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.dev.json
+C:\Users\Mloteks71\source\repos\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.dll
+C:\Users\Mloteks71\source\repos\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\Mloteks71\source\repos\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csprojAssemblyReference.cache
+C:\Users\Mloteks71\source\repos\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfoInputs.cache
+C:\Users\Mloteks71\source\repos\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfo.cs
+C:\Users\Mloteks71\source\repos\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Mloteks71\source\repos\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.dll
+C:\Users\Mloteks71\source\repos\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\Mloteks71\source\repos\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.genruntimeconfig.cache
+C:\Users\Mloteks71\source\repos\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.ResolveComReference.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.exe
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.deps.json
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.json
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.dev.json
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.dll
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csprojAssemblyReference.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.ResolveComReference.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfoInputs.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfo.cs
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.CoreCompileInputs.cache
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.dll
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\mjsty\OneDrive\Pulpit\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.genruntimeconfig.cache
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.exe
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.deps.json
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.json
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.dev.json
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.dll
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csprojAssemblyReference.cache
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.ResolveComReference.cache
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfoInputs.cache
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfo.cs
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.dll
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\Mloteks71\Desktop\Nowy folder (4)\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.genruntimeconfig.cache

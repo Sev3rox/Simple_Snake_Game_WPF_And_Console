@@ -1,0 +1,10 @@
+nick1:  10
+nick2:  9
+nick3:  8
+nick4:  7
+nick5:  6
+nick6:  5
+nick7:  4
+nick8:  3
+nick9:  2
+nick10:  1

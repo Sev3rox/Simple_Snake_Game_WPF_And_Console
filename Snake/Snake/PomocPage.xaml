@@ -1,0 +1,53 @@
+﻿<Page x:Class="Snake.PomocPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Snake"
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="500"
+      Title="PomocPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+
+        <Grid.Background >
+            <ImageBrush  ImageSource="/Files/Snake2jpg.jpg" />
+        </Grid.Background>
+        <Button FontSize="16" FontWeight="Bold" Margin="15,0,15,0" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="3" Click="Sterowanie" >
+            <Button.Background>
+                <ImageBrush ImageSource="/Files/snakebutton3.jpg" />
+            </Button.Background> Sterowanie</Button>
+        <Button FontSize="16" FontWeight="Bold" Margin="15,0,15,0" Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="3" Click="ZasadyGry" >
+            <Button.Background>
+                <ImageBrush ImageSource="/Files/snakebutton3.jpg" />
+            </Button.Background> Zasady Gry</Button>
+        <Button FontSize="16" FontWeight="Bold" Margin="15,0,15,0" Grid.Column="2" Grid.Row="7" Grid.ColumnSpan="3" Click="Back" >
+            <Button.Background>
+                <ImageBrush ImageSource="/Files/snakebutton3.jpg" />
+            </Button.Background> Powrót</Button>
+    </Grid>
+</Page>
